@@ -1,6 +1,9 @@
 ## Summary
 Sets up the foundational infrastructure for Synapse, including the Supabase connection, Database Schema with Vector support, and the Next.js Authentication flow.
 
+## Related Issue
+Link the issue this PR solves (if any).
+
 ## Type of Change
 - [x] 🚀 New feature (non-breaking change which adds functionality)
 - [ ] 🛠️ Bug fix (non-breaking change which fixes an issue)
