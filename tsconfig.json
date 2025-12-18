@@ -2,6 +2,7 @@
   "compilerOptions": {
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
+    "moduleResolution": "node",
     "paths": {
       "app/*": ["./packages/app/*"]
     },
