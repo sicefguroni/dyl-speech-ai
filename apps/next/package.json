@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.45",
     "@supabase/supabase-js": "^2.86.2",
+    "ai": "^5.0.108",
     "app": "*",
     "next": "^16.0.0-beta.0",
     "raf": "^3.4.1",
@@ -17,7 +19,8 @@
     "react-dom": "^19.1.0",
     "react-native-reanimated": "4.1.3",
     "react-native-web": "~0.19.10",
-    "react-native-worklets": "0.5.1"
+    "react-native-worklets": "0.5.1",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
