@@ -10,7 +10,7 @@
 
 ## 📖 Overview
 
-Synapse is not just a voice recorder, it is a **structured intelligence pipeline**. It bridge the gap between mobile data capture and server-side AI processing.
+Dyl is not just a voice recorder, it is a **structured intelligence pipeline**. It bridge the gap between mobile data capture and server-side AI processing.
 
 Users record raw audio via the mobile app (Expo), which is stream to a Next.js Edge API. The system uses Google's Gemin Multimodal LLM to listen to the audio and extract structured JSON data (Summary, Sentiment, Action Items, Tags) before saving it to a Vector Database (Supabase) for future retrieval.
 
@@ -42,11 +42,11 @@ graph TD
 - Analytics Worker: Python + Pandas (Containerized via Docker)
 
 ## 🚀 Features
-- Multimodal Ingestion: Direct audio processing without intermediate transcription processing.
-- Hybrid Authentication: Secure session handling for both Web (Cookies) and Mobile (Bearer Tokens).
-- Structured Output: Automatically categorizes chaotic voice notes into Summaries, Tasks, and Sentiments.
-- Dockerized Analytics: Python microservice runs in an isolated container to perform heavy background analysis.
-- Row Level Security (RLS): Database policies ensure users can only access their own memory bank.
+- **Multimodal Ingestion:** Direct audio processing without intermediate transcription processing.
+- **Hybrid Authentication:** Secure session handling for both Web (Cookies) and Mobile (Bearer Tokens).
+- **Structured Output:** Automatically categorizes chaotic voice notes into Summaries, Tasks, and Sentiments.
+- **Dockerized Analytics:** Python microservice runs in an isolated container to perform heavy background analysis.
+- **Row Level Security (RLS):** Database policies ensure users can only access their own memory bank.
 
 ## 🛠️ Getting Started
 **Prerequisites**
